@@ -37,20 +37,17 @@ This repository contains the initial stage of a student project to build a clone
 
 ##### Commands
     * create - Creates an instance based on given class
-
     * destroy - Destroys an object based on class and UUID
-
     * show - Shows an object based on class and UUID
-
     * all - Shows all objects the program has access to, or all objects of a given class
-
     * update - Updates existing attributes an object based on class name and UUID
-
     * quit - Exits the program (EOF will as well)
 
 
 ##### Alternative Syntax
 Users are able to issue a number of console command using an alternative syntax:
+
+
 
 	Usage: <class_name>.<command>([<id>[name_arg value_arg]|[kwargs]])
 Advanced syntax is implemented for the following commands: 
@@ -64,12 +61,10 @@ Advanced syntax is implemented for the following commands:
 	* destroy - Destroys an object based on class and UUID
 
     * update - Updates existing attributes an object based on class name and UUID
-
 <br>
 <br>
 <center> <h2>Examples</h2> </center>
 <h3>Primary Command Syntax</h3>
-
 ###### Example 0: Create an object
 Usage: create <class_name>
 ```
@@ -114,7 +109,6 @@ Usage: <class_name>.all()
 (hbnb) User.all()
 ["[User] (99f45908-1d17-46d1-9dd2-b7571128115b) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 34, 92071), 'id': '99f45908-1d17-46d1-9dd2-b7571128115b', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 34, 92056)}", "[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
-
 ###### Example 1: Destroy a User
 Usage: <class_name>.destroy(<_id>)
 ```
